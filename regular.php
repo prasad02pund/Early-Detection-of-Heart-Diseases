@@ -446,7 +446,7 @@ include('session.php');
                     $stresslevel = "High";
                 }
 
-                $api_key = "AIzaSyAjtOH-nyELTjHJtazxgRgjnCv3A9YbVYs";
+                $api_key = "Replace with your actual API key";
 
                 // Gemini API endpoint
                 $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=" . urlencode($api_key);
