@@ -469,7 +469,7 @@ include('session.php');
                 }
 
 
-                $api_key = "AIzaSyCWKXxHlR_nC9Ay4MKU0G-zjR4t6XGvGM0";  // Replace with your actual API key
+                $api_key = "Replace with your actual API key";  // Replace with your actual API key
 
                 // Gemini API URL
                 $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent?key=$api_key";
